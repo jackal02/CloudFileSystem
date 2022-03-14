@@ -4,8 +4,8 @@ The files stored in the cloud are maintained in a tree-like structure, file part
 
 # Accepted commands
 The accepted commands that can be given to the program are the following:
-- newuser <username> <password> <firstname> <lastname> 
-- login <username> <password>
+- newuser 'username' 'password' 'firstname' 'lastname' 
+- login 'username' 'password'
 - logout
 - userinfo
 - ls, cd, pwd
@@ -14,5 +14,5 @@ The accepted commands that can be given to the program are the following:
 
 The cloud commands are the following:
 - listcloud (lists the files stored in the cloud)
-- upload <dirname> (uploads a directory to the cloud recursively)
-- sync <dirname> (syncs the current content of a directory in the cloud)
+- upload 'dirname' (uploads a directory to the cloud recursively)
+- sync 'dirname' (syncs the current content of a directory in the cloud)
